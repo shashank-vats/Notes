@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add new note</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="addnote.css">
+        <script src="addnote.js"></script>
+    </head>
+    <body>
+        <form>
+            <input type="text" id="titleInput" placeholder="Title"> <br>
+            <label for="note_color">Choose color: </label>
+            <!-- <input type="color" id="note-color" value="LightGoldenRodYellow"> -->
+            <select id="note_color">
+                <option value="LightGoldenRodYellow" id="yellow">Yellow</option>
+                <option value="PaleGreen" id="green">Green</option>
+                <option value="LightPink" id="pink">Pink</option>
+                <option value="LightBlue" id="blue">Blue</option>
+            </select>
+            <span id="color">   </span>
+            <br>
+            <textarea id="textContent" placeholder="Text Goes here"></textarea> <br>
+            <input type="button" id="cancelButton" value="Cancel">
+            <input type="button" id="addButton" value="Add">
+        </form>
+    </body>
+</html>

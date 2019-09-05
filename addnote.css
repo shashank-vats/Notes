@@ -1,0 +1,100 @@
+body {
+	background-color: #dbdbdb;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+#cancelButton {
+    margin-top: 20px;
+    background-color: red;
+    width: 100px;
+    height: 25px;
+    font-weight: inherit;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 9px;
+    color: white;
+}
+
+#addButton {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100px;
+    height: 25px;
+    background-color: green;
+    font-weight: inherit;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    border: 0px;
+    border-radius: 9px;
+    color: white;
+}
+
+/*#cancelButton, #addButton {
+    padding: 0px 15px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.3);
+    border: 2px solid;
+    border-radius: 7px;
+    outline: 0;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+#cancelButton:before, #addButton:before {
+    border-radius: 9px;
+}
+
+#cancelButton:after, #addButton:after {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 0;
+    border-radius: 7px;
+}*/
+
+#note_color {
+    margin-top: 0px;
+    margin-left: 10px;
+    font-weight: inherit;
+}
+
+#color {
+    width: 50px;
+    background-color: lightgoldenrodyellow;
+    margin-left: 10px;
+    border: 1px black;
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: inherit;
+}
+
+label {
+    margin-top: 20px;
+    font-weight: inherit;
+}
+
+#textContent {
+    font-family: Verdana, Helvetica, sans-serif;
+    width: 1320px;
+    height: 400px;
+    margin-top: 20px;
+    font-size: 125%;
+    border: none;
+}
+
+#titleInput {
+    text-align: center;
+    font-size: 200%;
+    margin-left: 260px;
+    height: 50px;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 800px;
+    border: none;
+}
